@@ -1,0 +1,77 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0D0C1D;
+    color: white;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    }
+
+    .menu{
+        width: 400px;
+        margin: 10px auto;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        
+        
+    
+    }
+    
+    .menu > a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #CBC9D6;
+        margin: 0 10px;
+        padding: 8px;
+        border: 2px solid #CBC9D6;
+        border-radius: 10px;
+    }
+
+.contato{
+    text-align: center;
+    border: 2px solid #CBC9D6;
+    width: 600px;
+    padding: 20px;
+    margin: 10% auto;
+    border-radius: 10px;
+    
+}
+
+.contato > p{
+    font-size: 30px;
+}
+
+.contato > form > textarea{
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #CBC9D6;  
+    border-radius: 10px;
+}
+
+.email{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #CBC9D6;
+    border-radius: 10px;
+}
+
+.enviar{
+    width: 100px;
+    padding: 5px;
+    background-color: #CBC9D6;
+    color: #0D0C1D;
+    border-radius: 10px;
+    border: 2px solid #CBC9D6;
+    font-weight: bold
+    
+}
+
+.enviar:active {
+    background-color: #0D0C1D; /* Cor de fundo ao clicar */
+    transform: translateY(4px); /* Movimento para baixo ao clicar */
+    color: #CBC9D6;
+  }
